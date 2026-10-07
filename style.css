@@ -1,0 +1,164 @@
+*{
+    
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+
+}
+
+body{
+
+    background-image: url(./Banner\ de\ Fundo\ -\ 3000x2000.jpg);
+background-size: cover;
+display: flex;                             
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+}
+
+
+.container{
+
+width: 420px;
+height: ;
+background-color: transparent;
+border: 3px solid rgba(255, 255, 255,0.2);
+border-radius: 10px;
+color: #ffff;
+padding: 30px 40px 50px ;
+box-shadow: 0px 0px 10px rgba(0,0,0, 2.0);
+backdrop-filter: blur(10px);
+
+
+}
+
+.container h1{
+
+color: aliceblue;
+font-size: 36px;
+text-align: center;
+margin-bottom: 50px;
+
+}
+
+.Input-box{/*Mudar a posição do elemento de acordo com a minha necessidade*/
+
+width: 100%;
+height: 50px;
+margin: 30px 0px;
+position: relative;
+
+}
+
+.Input-box input{
+
+width: 100%;
+height: 100%;
+background-color: transparent;
+border: 2px solid;
+border-radius: 40px;
+outline: none;
+color: #ffff;
+padding: 20px 45px 20px 20px;
+
+
+}
+
+
+.Input-box input::placeholder{
+
+color: aliceblue;
+
+}
+
+.Input-box i{
+
+position: absolute ;
+right: 20px;
+top: 15px;
+}
+
+
+.remember-forgot{
+
+display: flex;
+justify-content: space-between;
+margin-bottom: 15px;
+
+}
+
+.remember-forgot label input{
+
+margin-right: 5px;
+
+}
+
+
+.remember-forgot a{
+
+text-decoration: none;
+color: aliceblue;
+
+
+}
+
+
+.remember-forgot a:hover{
+
+text-decoration: underline;
+
+}
+
+.login{
+
+width: 100%;
+height: 50px;
+background-color: aliceblue;
+border: none;
+border-radius: 40px;
+cursor: pointer;
+font-size: 17px;
+font-weight: 600;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
+}
+  
+.login:hover{/*faz a transição das cores  do botao de login*/
+
+background-color: transparent;
+transition: 0.5s;
+border: 2px solid rgba(255, 255, 255,0.2);
+color: aliceblue;
+
+}
+
+
+.register-link{
+
+font-size: 14px;
+text-align: center;
+margin: 20px 0px 15px;
+
+}
+
+
+.register-link a{
+
+text-decoration: none;
+color: aliceblue;
+font-weight: 600;
+
+}
+
+.register-link a:hover{
+
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
